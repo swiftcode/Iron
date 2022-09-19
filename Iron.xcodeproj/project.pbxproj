@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E550EFAC28D887D4001F967A /* IronApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550EFAB28D887D4001F967A /* IronApp.swift */; };
+		E550EFAE28D887D4001F967A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550EFAD28D887D4001F967A /* ContentView.swift */; };
+		E550EFB028D887D6001F967A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E550EFAF28D887D6001F967A /* Assets.xcassets */; };
+		E550EFB328D887D6001F967A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E550EFB228D887D6001F967A /* Preview Assets.xcassets */; };
+		E550EFBE28D887D6001F967A /* IronTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550EFBD28D887D6001F967A /* IronTests.swift */; };
+		E550EFC828D887D6001F967A /* IronUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550EFC728D887D6001F967A /* IronUITests.swift */; };
+		E550EFCA28D887D6001F967A /* IronUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550EFC928D887D6001F967A /* IronUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E550EFBA28D887D6001F967A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E550EFA028D887D4001F967A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E550EFA728D887D4001F967A;
+			remoteInfo = Iron;
+		};
+		E550EFC428D887D6001F967A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E550EFA028D887D4001F967A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E550EFA728D887D4001F967A;
+			remoteInfo = Iron;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E550EFA828D887D4001F967A /* Iron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Iron.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E550EFAB28D887D4001F967A /* IronApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronApp.swift; sourceTree = "<group>"; };
+		E550EFAD28D887D4001F967A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E550EFAF28D887D6001F967A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E550EFB228D887D6001F967A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E550EFB428D887D6001F967A /* Iron.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Iron.entitlements; sourceTree = "<group>"; };
+		E550EFB928D887D6001F967A /* IronTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IronTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E550EFBD28D887D6001F967A /* IronTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronTests.swift; sourceTree = "<group>"; };
+		E550EFC328D887D6001F967A /* IronUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IronUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E550EFC728D887D6001F967A /* IronUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronUITests.swift; sourceTree = "<group>"; };
+		E550EFC928D887D6001F967A /* IronUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E550EFA528D887D4001F967A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E550EFB628D887D6001F967A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E550EFC028D887D6001F967A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E550EF9F28D887D4001F967A = {
+			isa = PBXGroup;
+			children = (
+				E550EFAA28D887D4001F967A /* Iron */,
+				E550EFBC28D887D6001F967A /* IronTests */,
+				E550EFC628D887D6001F967A /* IronUITests */,
+				E550EFA928D887D4001F967A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E550EFA928D887D4001F967A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E550EFA828D887D4001F967A /* Iron.app */,
+				E550EFB928D887D6001F967A /* IronTests.xctest */,
+				E550EFC328D887D6001F967A /* IronUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E550EFAA28D887D4001F967A /* Iron */ = {
+			isa = PBXGroup;
+			children = (
+				E550EFAB28D887D4001F967A /* IronApp.swift */,
+				E550EFAD28D887D4001F967A /* ContentView.swift */,
+				E550EFAF28D887D6001F967A /* Assets.xcassets */,
+				E550EFB428D887D6001F967A /* Iron.entitlements */,
+				E550EFB128D887D6001F967A /* Preview Content */,
+			);
+			path = Iron;
+			sourceTree = "<group>";
+		};
+		E550EFB128D887D6001F967A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E550EFB228D887D6001F967A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E550EFBC28D887D6001F967A /* IronTests */ = {
+			isa = PBXGroup;
+			children = (
+				E550EFBD28D887D6001F967A /* IronTests.swift */,
+			);
+			path = IronTests;
+			sourceTree = "<group>";
+		};
+		E550EFC628D887D6001F967A /* IronUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E550EFC728D887D6001F967A /* IronUITests.swift */,
+				E550EFC928D887D6001F967A /* IronUITestsLaunchTests.swift */,
+			);
+			path = IronUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E550EFA728D887D4001F967A /* Iron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E550EFCD28D887D6001F967A /* Build configuration list for PBXNativeTarget "Iron" */;
+			buildPhases = (
+				E550EFA428D887D4001F967A /* Sources */,
+				E550EFA528D887D4001F967A /* Frameworks */,
+				E550EFA628D887D4001F967A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Iron;
+			productName = Iron;
+			productReference = E550EFA828D887D4001F967A /* Iron.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E550EFB828D887D6001F967A /* IronTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E550EFD028D887D6001F967A /* Build configuration list for PBXNativeTarget "IronTests" */;
+			buildPhases = (
+				E550EFB528D887D6001F967A /* Sources */,
+				E550EFB628D887D6001F967A /* Frameworks */,
+				E550EFB728D887D6001F967A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E550EFBB28D887D6001F967A /* PBXTargetDependency */,
+			);
+			name = IronTests;
+			productName = IronTests;
+			productReference = E550EFB928D887D6001F967A /* IronTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E550EFC228D887D6001F967A /* IronUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E550EFD328D887D6001F967A /* Build configuration list for PBXNativeTarget "IronUITests" */;
+			buildPhases = (
+				E550EFBF28D887D6001F967A /* Sources */,
+				E550EFC028D887D6001F967A /* Frameworks */,
+				E550EFC128D887D6001F967A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E550EFC528D887D6001F967A /* PBXTargetDependency */,
+			);
+			name = IronUITests;
+			productName = IronUITests;
+			productReference = E550EFC328D887D6001F967A /* IronUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E550EFA028D887D4001F967A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E550EFA728D887D4001F967A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					E550EFB828D887D6001F967A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E550EFA728D887D4001F967A;
+					};
+					E550EFC228D887D6001F967A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E550EFA728D887D4001F967A;
+					};
+				};
+			};
+			buildConfigurationList = E550EFA328D887D4001F967A /* Build configuration list for PBXProject "Iron" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E550EF9F28D887D4001F967A;
+			productRefGroup = E550EFA928D887D4001F967A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E550EFA728D887D4001F967A /* Iron */,
+				E550EFB828D887D6001F967A /* IronTests */,
+				E550EFC228D887D6001F967A /* IronUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E550EFA628D887D4001F967A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E550EFB328D887D6001F967A /* Preview Assets.xcassets in Resources */,
+				E550EFB028D887D6001F967A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E550EFB728D887D6001F967A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E550EFC128D887D6001F967A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E550EFA428D887D4001F967A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E550EFAE28D887D4001F967A /* ContentView.swift in Sources */,
+				E550EFAC28D887D4001F967A /* IronApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E550EFB528D887D6001F967A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E550EFBE28D887D6001F967A /* IronTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E550EFBF28D887D6001F967A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E550EFCA28D887D6001F967A /* IronUITestsLaunchTests.swift in Sources */,
+				E550EFC828D887D6001F967A /* IronUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E550EFBB28D887D6001F967A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E550EFA728D887D4001F967A /* Iron */;
+			targetProxy = E550EFBA28D887D6001F967A /* PBXContainerItemProxy */;
+		};
+		E550EFC528D887D6001F967A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E550EFA728D887D4001F967A /* Iron */;
+			targetProxy = E550EFC428D887D6001F967A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E550EFCB28D887D6001F967A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E550EFCC28D887D6001F967A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E550EFCE28D887D6001F967A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Iron/Iron.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Iron/Preview Content\"";
+				DEVELOPMENT_TEAM = P5U3KF2575;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mpc.Iron;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E550EFCF28D887D6001F967A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Iron/Iron.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Iron/Preview Content\"";
+				DEVELOPMENT_TEAM = P5U3KF2575;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mpc.Iron;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E550EFD128D887D6001F967A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P5U3KF2575;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mpc.IronTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Iron.app/Contents/MacOS/Iron";
+			};
+			name = Debug;
+		};
+		E550EFD228D887D6001F967A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P5U3KF2575;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mpc.IronTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Iron.app/Contents/MacOS/Iron";
+			};
+			name = Release;
+		};
+		E550EFD428D887D6001F967A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P5U3KF2575;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mpc.IronUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Iron;
+			};
+			name = Debug;
+		};
+		E550EFD528D887D6001F967A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P5U3KF2575;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mpc.IronUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Iron;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E550EFA328D887D4001F967A /* Build configuration list for PBXProject "Iron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E550EFCB28D887D6001F967A /* Debug */,
+				E550EFCC28D887D6001F967A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E550EFCD28D887D6001F967A /* Build configuration list for PBXNativeTarget "Iron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E550EFCE28D887D6001F967A /* Debug */,
+				E550EFCF28D887D6001F967A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E550EFD028D887D6001F967A /* Build configuration list for PBXNativeTarget "IronTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E550EFD128D887D6001F967A /* Debug */,
+				E550EFD228D887D6001F967A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E550EFD328D887D6001F967A /* Build configuration list for PBXNativeTarget "IronUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E550EFD428D887D6001F967A /* Debug */,
+				E550EFD528D887D6001F967A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E550EFA028D887D4001F967A /* Project object */;
+}
