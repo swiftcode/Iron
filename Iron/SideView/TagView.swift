@@ -19,6 +19,9 @@ struct TagView: View {
             Tag(image: Image(systemName: "circle.fill"), name: "Grey", color: .gray)
             Spacer()
         }
+        .padding(0)
+        .background(Color(red: 211/255, green: 208/255, blue: 208/255))
+        .foregroundColor(.black)
     }
 }
 
