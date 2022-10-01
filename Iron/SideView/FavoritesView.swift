@@ -9,45 +9,28 @@ import SwiftUI
 
 struct FavoritesView: View {
     var body: some View {
-        VStack(alignment: .leading) {
-            Text("Favorites")
-                .font(.title3)
-
-            HStack {
-                Image(systemName: "house")
-                Text("mpc")
+        NavigationView {
+            VStack {
+                CategoryView(image: Image(systemName: "house"), name: "mpc")
+                    .tint(.blue)
+                    .frame(alignment: .leading)
+                CategoryView(image: Image(systemName: "folder"), name: "Desktop")
+                    .tint(.blue)
+                    .frame(alignment: .leading)
+                CategoryView(image: Image(systemName: "folder"), name: "Documents")
+                    .tint(.blue)
+                    .frame(alignment: .leading)
+                CategoryView(image: Image(systemName: "folder"), name: "Downloads")
+                    .tint(.blue)
+                    .frame(alignment: .leading)
+                Spacer()
             }
-            .padding(3.0)
-
-            HStack {
-                Image(systemName: "folder")
-                Text("Desktop")
-            }
-            .padding(3.0)
-
-            HStack {
-                Image(systemName: "folder")
-                Text("Downloads")
-            }
-            .padding(3.0)
-
-            HStack {
-                Image(systemName: "folder")
-                Text("Documents")
-            }
-            .padding(3.0)
-
-            HStack {
-                Image(systemName: "dot.radiowaves.left.and.right")
-                Text("Airdrop")
-            }
-            .padding(3.0)
         }
     }
 }
 
 struct FavoritesView_Previews: PreviewProvider {
     static var previews: some View {
-        FavoritesView()
+        Text("")
     }
 }

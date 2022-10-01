@@ -16,6 +16,7 @@
 		E550EFCA28D887D6001F967A /* IronUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550EFC928D887D6001F967A /* IronUITestsLaunchTests.swift */; };
 		E57FCA1628E0F4D400018328 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FCA1528E0F4D400018328 /* FavoritesView.swift */; };
 		E57FCA1928E1682800018328 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FCA1828E1682800018328 /* CategoryView.swift */; };
+		E5D34E3F28E7F56900F8E161 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D34E3E28E7F56900F8E161 /* LocationsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E550EFC928D887D6001F967A /* IronUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E57FCA1528E0F4D400018328 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		E57FCA1828E1682800018328 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		E5D34E3E28E7F56900F8E161 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				E57FCA1528E0F4D400018328 /* FavoritesView.swift */,
+				E5D34E3E28E7F56900F8E161 /* LocationsView.swift */,
 				E57FCA1828E1682800018328 /* CategoryView.swift */,
 			);
 			path = SideView;
@@ -283,6 +286,7 @@
 			files = (
 				E550EFAE28D887D4001F967A /* ContentView.swift in Sources */,
 				E550EFAC28D887D4001F967A /* IronApp.swift in Sources */,
+				E5D34E3F28E7F56900F8E161 /* LocationsView.swift in Sources */,
 				E57FCA1928E1682800018328 /* CategoryView.swift in Sources */,
 				E57FCA1628E0F4D400018328 /* FavoritesView.swift in Sources */,
 			);
