@@ -16,6 +16,8 @@
 		E550EFCA28D887D6001F967A /* IronUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550EFC928D887D6001F967A /* IronUITestsLaunchTests.swift */; };
 		E57FCA1628E0F4D400018328 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FCA1528E0F4D400018328 /* FavoritesView.swift */; };
 		E57FCA1928E1682800018328 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FCA1828E1682800018328 /* CategoryView.swift */; };
+		E58DFCFE28E84A8C00AC0A41 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58DFCFD28E84A8C00AC0A41 /* Tag.swift */; };
+		E58DFD0028E84B7C00AC0A41 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58DFCFF28E84B7C00AC0A41 /* TagView.swift */; };
 		E5D34E3F28E7F56900F8E161 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D34E3E28E7F56900F8E161 /* LocationsView.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +52,8 @@
 		E550EFC928D887D6001F967A /* IronUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E57FCA1528E0F4D400018328 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		E57FCA1828E1682800018328 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		E58DFCFD28E84A8C00AC0A41 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		E58DFCFF28E84B7C00AC0A41 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
 		E5D34E3E28E7F56900F8E161 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +147,8 @@
 				E57FCA1528E0F4D400018328 /* FavoritesView.swift */,
 				E5D34E3E28E7F56900F8E161 /* LocationsView.swift */,
 				E57FCA1828E1682800018328 /* CategoryView.swift */,
+				E58DFCFF28E84B7C00AC0A41 /* TagView.swift */,
+				E58DFCFD28E84A8C00AC0A41 /* Tag.swift */,
 			);
 			path = SideView;
 			sourceTree = "<group>";
@@ -288,7 +294,9 @@
 				E550EFAC28D887D4001F967A /* IronApp.swift in Sources */,
 				E5D34E3F28E7F56900F8E161 /* LocationsView.swift in Sources */,
 				E57FCA1928E1682800018328 /* CategoryView.swift in Sources */,
+				E58DFD0028E84B7C00AC0A41 /* TagView.swift in Sources */,
 				E57FCA1628E0F4D400018328 /* FavoritesView.swift in Sources */,
+				E58DFCFE28E84A8C00AC0A41 /* Tag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
