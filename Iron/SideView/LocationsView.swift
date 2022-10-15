@@ -12,10 +12,10 @@ struct LocationsView: View {
         VStack {
             CategoryView(image: Image(systemName: "macmini"), name: "Mac Mini")
                 .tint(.blue)
-                .frame(alignment: .leading)
+                .frame(alignment: .trailing)
             CategoryView(image: Image(systemName: "iphone"), name: "mpc")
                 .tint(.blue)
-                .frame(alignment: .leading)
+                .frame(alignment: .trailing)
             Spacer()
         }
         .padding(0)
