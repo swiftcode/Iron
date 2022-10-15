@@ -18,6 +18,7 @@ struct CategoryView: View {
                     .foregroundColor(.blue)
                     .padding(.leading, 10)
                 Text(name)
+                    .frame(alignment: .trailing)
                 Spacer()
             }
         }

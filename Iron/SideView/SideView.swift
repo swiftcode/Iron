@@ -17,7 +17,7 @@ struct SideView: View {
                     .padding(0)
                 TagView()
             }
-            .frame(width: geometry.size.width * 0.15, height: geometry.size.height, alignment: .topLeading)
+            .frame(width: geometry.size.width * 0.45, height: geometry.size.height, alignment: .top)
             .foregroundColor(.gray)
         }
     }

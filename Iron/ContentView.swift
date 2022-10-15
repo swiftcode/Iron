@@ -9,7 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        SideView()
+        NavigationView {
+            HStack {
+                SideView()
+                FileView()
+            }
+            .frame(minWidth: 300, idealWidth: 300, maxWidth: 300, maxHeight: .infinity)
+        }
     }
 }
 
