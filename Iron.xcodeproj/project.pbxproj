@@ -15,6 +15,8 @@
 		E550EFC828D887D6001F967A /* IronUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550EFC728D887D6001F967A /* IronUITests.swift */; };
 		E550EFCA28D887D6001F967A /* IronUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550EFC928D887D6001F967A /* IronUITestsLaunchTests.swift */; };
 		E551B6EB28E9514900C33C24 /* FileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E551B6EA28E9514900C33C24 /* FileView.swift */; };
+		E5572E44291FE5EA00279093 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5572E43291FE5EA00279093 /* Colors.xcassets */; };
+		E5572E46291FE7E300279093 /* MainToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5572E45291FE7E300279093 /* MainToolbar.swift */; };
 		E57FCA1628E0F4D400018328 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FCA1528E0F4D400018328 /* FavoritesView.swift */; };
 		E57FCA1928E1682800018328 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FCA1828E1682800018328 /* CategoryView.swift */; };
 		E58DFCFE28E84A8C00AC0A41 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58DFCFD28E84A8C00AC0A41 /* Tag.swift */; };
@@ -53,6 +55,8 @@
 		E550EFC728D887D6001F967A /* IronUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronUITests.swift; sourceTree = "<group>"; };
 		E550EFC928D887D6001F967A /* IronUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E551B6EA28E9514900C33C24 /* FileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileView.swift; sourceTree = "<group>"; };
+		E5572E43291FE5EA00279093 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		E5572E45291FE7E300279093 /* MainToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainToolbar.swift; sourceTree = "<group>"; };
 		E57FCA1528E0F4D400018328 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		E57FCA1828E1682800018328 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		E58DFCFD28E84A8C00AC0A41 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
@@ -112,9 +116,11 @@
 				E57FCA1728E166A700018328 /* Utils */,
 				E550EFAB28D887D4001F967A /* IronApp.swift */,
 				E550EFAD28D887D4001F967A /* ContentView.swift */,
+				E5572E45291FE7E300279093 /* MainToolbar.swift */,
 				E57FCA1428E0F47500018328 /* SideView */,
 				E551B6E928E9512F00C33C24 /* FileView */,
 				E550EFAF28D887D6001F967A /* Assets.xcassets */,
+				E5572E43291FE5EA00279093 /* Colors.xcassets */,
 				E550EFB428D887D6001F967A /* Iron.entitlements */,
 				E550EFB128D887D6001F967A /* Preview Content */,
 			);
@@ -278,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5572E44291FE5EA00279093 /* Colors.xcassets in Resources */,
 				E550EFB328D887D6001F967A /* Preview Assets.xcassets in Resources */,
 				E550EFB028D887D6001F967A /* Assets.xcassets in Resources */,
 			);
@@ -306,6 +313,7 @@
 			files = (
 				E550EFAE28D887D4001F967A /* ContentView.swift in Sources */,
 				E58DFD0228E8C0E400AC0A41 /* SideView.swift in Sources */,
+				E5572E46291FE7E300279093 /* MainToolbar.swift in Sources */,
 				E550EFAC28D887D4001F967A /* IronApp.swift in Sources */,
 				E5D34E3F28E7F56900F8E161 /* LocationsView.swift in Sources */,
 				E57FCA1928E1682800018328 /* CategoryView.swift in Sources */,
