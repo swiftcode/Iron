@@ -17,6 +17,7 @@
 		E551B6EB28E9514900C33C24 /* FileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E551B6EA28E9514900C33C24 /* FileView.swift */; };
 		E5572E44291FE5EA00279093 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5572E43291FE5EA00279093 /* Colors.xcassets */; };
 		E5572E46291FE7E300279093 /* MainToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5572E45291FE7E300279093 /* MainToolbar.swift */; };
+		E5572E48291FF05E00279093 /* ActionToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5572E47291FF05E00279093 /* ActionToolbar.swift */; };
 		E57FCA1628E0F4D400018328 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FCA1528E0F4D400018328 /* FavoritesView.swift */; };
 		E57FCA1928E1682800018328 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FCA1828E1682800018328 /* CategoryView.swift */; };
 		E58DFCFE28E84A8C00AC0A41 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58DFCFD28E84A8C00AC0A41 /* Tag.swift */; };
@@ -57,6 +58,7 @@
 		E551B6EA28E9514900C33C24 /* FileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileView.swift; sourceTree = "<group>"; };
 		E5572E43291FE5EA00279093 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		E5572E45291FE7E300279093 /* MainToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainToolbar.swift; sourceTree = "<group>"; };
+		E5572E47291FF05E00279093 /* ActionToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionToolbar.swift; sourceTree = "<group>"; };
 		E57FCA1528E0F4D400018328 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		E57FCA1828E1682800018328 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		E58DFCFD28E84A8C00AC0A41 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				E550EFAB28D887D4001F967A /* IronApp.swift */,
 				E550EFAD28D887D4001F967A /* ContentView.swift */,
 				E5572E45291FE7E300279093 /* MainToolbar.swift */,
+				E5572E47291FF05E00279093 /* ActionToolbar.swift */,
 				E57FCA1428E0F47500018328 /* SideView */,
 				E551B6E928E9512F00C33C24 /* FileView */,
 				E550EFAF28D887D6001F967A /* Assets.xcassets */,
@@ -244,7 +247,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					E550EFA728D887D4001F967A = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -317,6 +320,7 @@
 				E550EFAC28D887D4001F967A /* IronApp.swift in Sources */,
 				E5D34E3F28E7F56900F8E161 /* LocationsView.swift in Sources */,
 				E57FCA1928E1682800018328 /* CategoryView.swift in Sources */,
+				E5572E48291FF05E00279093 /* ActionToolbar.swift in Sources */,
 				E58DFD0028E84B7C00AC0A41 /* TagView.swift in Sources */,
 				E551B6EB28E9514900C33C24 /* FileView.swift in Sources */,
 				E57FCA1628E0F4D400018328 /* FavoritesView.swift in Sources */,
@@ -390,6 +394,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -450,6 +455,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -476,9 +482,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Iron/Iron.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Iron/Preview Content\"";
 				DEVELOPMENT_TEAM = P5U3KF2575;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -504,9 +512,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Iron/Iron.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Iron/Preview Content\"";
 				DEVELOPMENT_TEAM = P5U3KF2575;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -533,6 +543,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = P5U3KF2575;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -552,6 +563,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = P5U3KF2575;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -570,6 +582,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = P5U3KF2575;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
@@ -587,6 +600,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = P5U3KF2575;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
