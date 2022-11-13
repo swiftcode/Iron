@@ -13,5 +13,9 @@ struct IronApp: App {
         WindowGroup {
             ContentView()
         }
+
+        Settings {
+            
+        }
     }
 }

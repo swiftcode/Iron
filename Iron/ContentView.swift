@@ -22,12 +22,18 @@ struct ContentView: View {
                 }
                 .frame(minWidth: 100, maxWidth: .infinity, minHeight: 100, maxHeight: .infinity, alignment: .topLeading)
                 .background(Color("lightGrey"))
+                .onTapGesture {
+                    print("tap gesture")
+                }
 
                 List() {
                     Text("Content")
                     Text("Content")
                     Text("Content")
                     Text("Content")
+                }
+                .onTapGesture {
+                    print("tapped")
                 }
                 .listStyle(.inset(alternatesRowBackgrounds: true))
             }
