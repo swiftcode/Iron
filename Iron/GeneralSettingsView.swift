@@ -8,16 +8,18 @@
 import SwiftUI
 
 struct GeneralSettingsView: View {
-    @AppStorage("showPreview") private var showPreview = true
-    @AppStorage("fontSize") private var fontSize = 12.0
-
+    @AppStorage("hardDisks") private var showHardDisks = true
+    @AppStorage("externalDisks") private var showExternalDisks = true
+    @AppStorage("devices") private var showDevices = true
+    @AppStorage("connectedServers") private var showConnectedServers = true
 
     var body: some View {
         Form {
-            Toggle("Show Previews", isOn: $showPreview)
-            Slider(value: $fontSize, in: 9...96) {
-                Text("Font Size (\(fontSize, specifier: "%.0f") pts)")
-            }
+            Text("Show these items on the desktop")
+            Toggle("Hard disks", isOn: $showHardDisks)
+            Toggle("External disks", isOn: $showExternalDisks)
+            Toggle("CDs, DVDs and iPods", isOn: $showDevices)
+            Toggle("Connected servers", isOn: $showConnectedServers)
         }
         .padding(20)
         .frame(width: 350, height: 100)
