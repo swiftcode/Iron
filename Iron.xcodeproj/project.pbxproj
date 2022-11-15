@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E529BE4029219A620037852B /* PreferencesToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E529BE3F29219A620037852B /* PreferencesToolbar.swift */; };
+		E529BE422921BC870037852B /* GeneralSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E529BE412921BC870037852B /* GeneralSettingsView.swift */; };
 		E550EFAC28D887D4001F967A /* IronApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550EFAB28D887D4001F967A /* IronApp.swift */; };
 		E550EFAE28D887D4001F967A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550EFAD28D887D4001F967A /* ContentView.swift */; };
 		E550EFB028D887D6001F967A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E550EFAF28D887D6001F967A /* Assets.xcassets */; };
@@ -23,6 +25,9 @@
 		E58DFCFE28E84A8C00AC0A41 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58DFCFD28E84A8C00AC0A41 /* Tag.swift */; };
 		E58DFD0028E84B7C00AC0A41 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58DFCFF28E84B7C00AC0A41 /* TagView.swift */; };
 		E58DFD0228E8C0E400AC0A41 /* SideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58DFD0128E8C0E400AC0A41 /* SideView.swift */; };
+		E590B1FC2923CA4A00B7B900 /* TagSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E590B1FB2923CA4A00B7B900 /* TagSettingsView.swift */; };
+		E590B1FE2923CABA00B7B900 /* SidebarSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E590B1FD2923CABA00B7B900 /* SidebarSettingsView.swift */; };
+		E590B2002923CB1100B7B900 /* AdvancedSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E590B1FF2923CB1100B7B900 /* AdvancedSettingsView.swift */; };
 		E5D34E3F28E7F56900F8E161 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D34E3E28E7F56900F8E161 /* LocationsView.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E529BE3F29219A620037852B /* PreferencesToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesToolbar.swift; sourceTree = "<group>"; };
+		E529BE412921BC870037852B /* GeneralSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralSettingsView.swift; sourceTree = "<group>"; };
 		E550EFA828D887D4001F967A /* Iron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Iron.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E550EFAB28D887D4001F967A /* IronApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronApp.swift; sourceTree = "<group>"; };
 		E550EFAD28D887D4001F967A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +71,9 @@
 		E58DFCFD28E84A8C00AC0A41 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
 		E58DFCFF28E84B7C00AC0A41 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
 		E58DFD0128E8C0E400AC0A41 /* SideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideView.swift; sourceTree = "<group>"; };
+		E590B1FB2923CA4A00B7B900 /* TagSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagSettingsView.swift; sourceTree = "<group>"; };
+		E590B1FD2923CABA00B7B900 /* SidebarSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarSettingsView.swift; sourceTree = "<group>"; };
+		E590B1FF2923CB1100B7B900 /* AdvancedSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedSettingsView.swift; sourceTree = "<group>"; };
 		E5D34E3E28E7F56900F8E161 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,13 +129,18 @@
 				E550EFAB28D887D4001F967A /* IronApp.swift */,
 				E550EFAD28D887D4001F967A /* ContentView.swift */,
 				E5572E45291FE7E300279093 /* MainToolbar.swift */,
+				E529BE3F29219A620037852B /* PreferencesToolbar.swift */,
+				E529BE412921BC870037852B /* GeneralSettingsView.swift */,
+				E590B1FB2923CA4A00B7B900 /* TagSettingsView.swift */,
+				E590B1FD2923CABA00B7B900 /* SidebarSettingsView.swift */,
+				E590B1FF2923CB1100B7B900 /* AdvancedSettingsView.swift */,
 				E5572E47291FF05E00279093 /* ActionToolbar.swift */,
 				E57FCA1428E0F47500018328 /* SideView */,
 				E551B6E928E9512F00C33C24 /* FileView */,
+				E550EFB128D887D6001F967A /* Preview Content */,
 				E550EFAF28D887D6001F967A /* Assets.xcassets */,
 				E5572E43291FE5EA00279093 /* Colors.xcassets */,
 				E550EFB428D887D6001F967A /* Iron.entitlements */,
-				E550EFB128D887D6001F967A /* Preview Content */,
 			);
 			path = Iron;
 			sourceTree = "<group>";
@@ -314,10 +329,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E590B1FC2923CA4A00B7B900 /* TagSettingsView.swift in Sources */,
+				E529BE422921BC870037852B /* GeneralSettingsView.swift in Sources */,
 				E550EFAE28D887D4001F967A /* ContentView.swift in Sources */,
+				E590B1FE2923CABA00B7B900 /* SidebarSettingsView.swift in Sources */,
 				E58DFD0228E8C0E400AC0A41 /* SideView.swift in Sources */,
 				E5572E46291FE7E300279093 /* MainToolbar.swift in Sources */,
 				E550EFAC28D887D4001F967A /* IronApp.swift in Sources */,
+				E590B2002923CB1100B7B900 /* AdvancedSettingsView.swift in Sources */,
+				E529BE4029219A620037852B /* PreferencesToolbar.swift in Sources */,
 				E5D34E3F28E7F56900F8E161 /* LocationsView.swift in Sources */,
 				E57FCA1928E1682800018328 /* CategoryView.swift in Sources */,
 				E5572E48291FF05E00279093 /* ActionToolbar.swift in Sources */,

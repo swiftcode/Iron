@@ -14,8 +14,10 @@ struct IronApp: App {
             ContentView()
         }
 
+        #if os(macOS)
         Settings {
-            
+            PreferencesToolbar()
         }
+        #endif
     }
 }
