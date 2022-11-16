@@ -18,11 +18,11 @@ struct SidebarSettingsView: View {
             Text("Show these items on the desktop")
             Toggle("Hard disks", isOn: $showHardDisks)
             Toggle("External disks", isOn: $showExternalDisks)
-            Toggle("CDs, DVDs and iPods", isOn: $showDevices)
+            Toggle("CDs, DVDs, and iPods", isOn: $showDevices)
             Toggle("Connected servers", isOn: $showConnectedServers)
         }
         .padding(20)
-        .frame(width: 350, height: 100)
+        .frame(width: 350, height: 300)
     }
 }
 

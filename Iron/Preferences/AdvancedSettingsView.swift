@@ -1,13 +1,13 @@
 //
-//  GeneralSettingsView.swift
+//  AdvancedSettingsView.swift
 //  Iron
 //
-//  Created by mpc on 11/13/22.
+//  Created by mpc on 11/15/22.
 //
 
 import SwiftUI
 
-struct GeneralSettingsView: View {
+struct AdvancedSettingsView: View {
     @AppStorage("hardDisks") private var showHardDisks = true
     @AppStorage("externalDisks") private var showExternalDisks = true
     @AppStorage("devices") private var showDevices = true
@@ -18,7 +18,7 @@ struct GeneralSettingsView: View {
             Text("Show these items on the desktop")
             Toggle("Hard disks", isOn: $showHardDisks)
             Toggle("External disks", isOn: $showExternalDisks)
-            Toggle("CDs, DVDs and iPods", isOn: $showDevices)
+            Toggle("CDs, DVDs, and iPods", isOn: $showDevices)
             Toggle("Connected servers", isOn: $showConnectedServers)
         }
         .padding(20)
@@ -26,8 +26,8 @@ struct GeneralSettingsView: View {
     }
 }
 
-struct GeneralSettingsView_Previews: PreviewProvider {
+struct AdvancedSettingsView_Previews: PreviewProvider {
     static var previews: some View {
-        GeneralSettingsView()
+        AdvancedSettingsView()
     }
 }

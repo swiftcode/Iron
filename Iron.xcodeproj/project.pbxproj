@@ -19,7 +19,6 @@
 		E551B6EB28E9514900C33C24 /* FileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E551B6EA28E9514900C33C24 /* FileView.swift */; };
 		E5572E44291FE5EA00279093 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5572E43291FE5EA00279093 /* Colors.xcassets */; };
 		E5572E46291FE7E300279093 /* MainToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5572E45291FE7E300279093 /* MainToolbar.swift */; };
-		E5572E48291FF05E00279093 /* ActionToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5572E47291FF05E00279093 /* ActionToolbar.swift */; };
 		E57FCA1628E0F4D400018328 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FCA1528E0F4D400018328 /* FavoritesView.swift */; };
 		E57FCA1928E1682800018328 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FCA1828E1682800018328 /* CategoryView.swift */; };
 		E58DFCFE28E84A8C00AC0A41 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58DFCFD28E84A8C00AC0A41 /* Tag.swift */; };
@@ -65,7 +64,6 @@
 		E551B6EA28E9514900C33C24 /* FileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileView.swift; sourceTree = "<group>"; };
 		E5572E43291FE5EA00279093 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		E5572E45291FE7E300279093 /* MainToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainToolbar.swift; sourceTree = "<group>"; };
-		E5572E47291FF05E00279093 /* ActionToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionToolbar.swift; sourceTree = "<group>"; };
 		E57FCA1528E0F4D400018328 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		E57FCA1828E1682800018328 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		E58DFCFD28E84A8C00AC0A41 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
@@ -129,12 +127,7 @@
 				E550EFAB28D887D4001F967A /* IronApp.swift */,
 				E550EFAD28D887D4001F967A /* ContentView.swift */,
 				E5572E45291FE7E300279093 /* MainToolbar.swift */,
-				E529BE3F29219A620037852B /* PreferencesToolbar.swift */,
-				E529BE412921BC870037852B /* GeneralSettingsView.swift */,
-				E590B1FB2923CA4A00B7B900 /* TagSettingsView.swift */,
-				E590B1FD2923CABA00B7B900 /* SidebarSettingsView.swift */,
-				E590B1FF2923CB1100B7B900 /* AdvancedSettingsView.swift */,
-				E5572E47291FF05E00279093 /* ActionToolbar.swift */,
+				E590B2012924738400B7B900 /* Preferences */,
 				E57FCA1428E0F47500018328 /* SideView */,
 				E551B6E928E9512F00C33C24 /* FileView */,
 				E550EFB128D887D6001F967A /* Preview Content */,
@@ -196,6 +189,18 @@
 			children = (
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		E590B2012924738400B7B900 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				E529BE3F29219A620037852B /* PreferencesToolbar.swift */,
+				E529BE412921BC870037852B /* GeneralSettingsView.swift */,
+				E590B1FB2923CA4A00B7B900 /* TagSettingsView.swift */,
+				E590B1FD2923CABA00B7B900 /* SidebarSettingsView.swift */,
+				E590B1FF2923CB1100B7B900 /* AdvancedSettingsView.swift */,
+			);
+			path = Preferences;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,7 +345,6 @@
 				E529BE4029219A620037852B /* PreferencesToolbar.swift in Sources */,
 				E5D34E3F28E7F56900F8E161 /* LocationsView.swift in Sources */,
 				E57FCA1928E1682800018328 /* CategoryView.swift in Sources */,
-				E5572E48291FF05E00279093 /* ActionToolbar.swift in Sources */,
 				E58DFD0028E84B7C00AC0A41 /* TagView.swift in Sources */,
 				E551B6EB28E9514900C33C24 /* FileView.swift in Sources */,
 				E57FCA1628E0F4D400018328 /* FavoritesView.swift in Sources */,
