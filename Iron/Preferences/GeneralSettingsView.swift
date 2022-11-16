@@ -13,7 +13,7 @@ struct GeneralSettingsView: View {
     @AppStorage("devices") private var showDevices = true
     @AppStorage("connectedServers") private var showConnectedServers = true
     @AppStorage("newWindow") private var newWindow = "mpc"
-    @AppStorage("openNewTab") private var openNewTab = true
+    @AppStorage("openInTabs") private var openInTabs = true
 
     let pickerValues = ["mpc", "foo", "nas", "external"]
 
@@ -42,9 +42,9 @@ struct GeneralSettingsView: View {
             VStack {
                 HStack {
                     Button {
-                        openNewTab.toggle()
+                        openInTabs.toggle()
                     } label: {
-                        let img = openNewTab ? "checkmark.square" : "square"
+                        let img = openInTabs ? "checkmark.square" : "square"
                         Image(systemName: img)
                     }
                     .buttonStyle(PlainButtonStyle())
