@@ -25,7 +25,6 @@ struct MainToolbar: ToolbarContent {
                 Image(systemName: "greaterthan")
                     .imageScale(.large)
             }
-            .padding(EdgeInsets(top: 0, leading: -15.0, bottom: 0, trailing: 0))
         }
 
         ToolbarItem(placement: .automatic) {
