@@ -8,23 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isShowingSidebar = true
+
     var body: some View {
          HSplitView {
              NavigationView {
-                Section {
-                    VStack {
-                        Text("Sidebar")
-                        Text("Sidebar")
-                        Text("Sidebar")
-                        Text("Sidebar")
-                        Text("Sidebar")
-                    }
-                }
-                .frame(minWidth: 100, maxWidth: .infinity, minHeight: 100, maxHeight: .infinity, alignment: .topLeading)
-                .background(Color("lightGrey"))
-                .onTapGesture {
-                    print("tap gesture")
-                }
+                 Section {
+                     VStack {
+                         Text("Sidebar")
+                         Text("Sidebar")
+                         Text("Sidebar")
+                         Text("Sidebar")
+                         Text("Sidebar")
+                     }
+                 }
+                 .frame(minWidth: 0, maxWidth: .infinity, minHeight: 100, maxHeight: .infinity, alignment: .topLeading)
+                 .background(Color("lightGrey"))
+                 .onTapGesture {
+                     print("tap gesture")
+                 }
 
                 List() {
                     Text("Content")
@@ -39,7 +41,7 @@ struct ContentView: View {
             }
             .frame(minWidth: 100, maxWidth: .infinity, minHeight: 100, maxHeight: .infinity, alignment: .topLeading)
             .toolbar(content: {
-                MainToolbar()
+                MainToolbar(isShowingSidebar: $isShowingSidebar)
             })
         }
     }

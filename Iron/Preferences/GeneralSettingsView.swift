@@ -40,19 +40,8 @@ struct GeneralSettingsView: View {
             }
 
             VStack {
-                HStack {
-                    Button {
-                        openInTabs.toggle()
-                    } label: {
-                        let img = openInTabs ? "checkmark.square" : "square"
-                        Image(systemName: img)
-                    }
-                    .buttonStyle(PlainButtonStyle())
-                    .background(.white)
-
-                    Text("Open folders in tabs instead of new windows")
-                }
-                .padding(EdgeInsets(top: 20, leading: 0, bottom: 0, trailing: 0))
+                Toggle("Open folders in tabs instead of new windows", isOn: $openInTabs)
+                    .padding(EdgeInsets(top: 20, leading: 0, bottom: 0, trailing: 0))
             }
         }
         .padding(20)
