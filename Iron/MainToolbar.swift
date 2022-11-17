@@ -8,7 +8,19 @@
 import SwiftUI
 
 struct MainToolbar: ToolbarContent {
+    @Binding var isShowingSidebar: Bool
+    
     var body: some ToolbarContent {
+        ToolbarItem(placement: .automatic) {
+            Button(action: {
+                isShowingSidebar.toggle()
+                print("sidebar: \(isShowingSidebar)")
+            }) {
+                Image(systemName: "sidebar.left")
+                    .imageScale(.large)
+            }
+        }
+
         ToolbarItem(placement: .automatic) {
             Button(action: {
                 print("back")
