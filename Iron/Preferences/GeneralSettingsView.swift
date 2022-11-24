@@ -24,6 +24,7 @@ struct GeneralSettingsView: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
             }
             Toggle("Hard disks", isOn: $showHardDisks)
+            Image(systemName: "key")
             Toggle("External disks", isOn: $showExternalDisks)
             Toggle("CDs, DVDs, and iPods", isOn: $showDevices)
             Toggle("Connected servers", isOn: $showConnectedServers)
