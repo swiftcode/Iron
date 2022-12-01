@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5216C552938108400624C1B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5216C542938108400624C1B /* Constants.swift */; };
 		E529BE4029219A620037852B /* PreferencesToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E529BE3F29219A620037852B /* PreferencesToolbar.swift */; };
 		E529BE422921BC870037852B /* GeneralSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E529BE412921BC870037852B /* GeneralSettingsView.swift */; };
+		E54CB99A292A1D6300A262D1 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CB999292A1D6300A262D1 /* ImageView.swift */; };
 		E550EFAC28D887D4001F967A /* IronApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550EFAB28D887D4001F967A /* IronApp.swift */; };
 		E550EFAE28D887D4001F967A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550EFAD28D887D4001F967A /* ContentView.swift */; };
 		E550EFB028D887D6001F967A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E550EFAF28D887D6001F967A /* Assets.xcassets */; };
@@ -27,6 +29,7 @@
 		E590B1FC2923CA4A00B7B900 /* TagSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E590B1FB2923CA4A00B7B900 /* TagSettingsView.swift */; };
 		E590B1FE2923CABA00B7B900 /* SidebarSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E590B1FD2923CABA00B7B900 /* SidebarSettingsView.swift */; };
 		E590B2002923CB1100B7B900 /* AdvancedSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E590B1FF2923CB1100B7B900 /* AdvancedSettingsView.swift */; };
+		E5C87C232927080900DEDA64 /* ImageLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C87C222927080900DEDA64 /* ImageLabel.swift */; };
 		E5D34E3F28E7F56900F8E161 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D34E3E28E7F56900F8E161 /* LocationsView.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,8 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E5216C542938108400624C1B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E529BE3F29219A620037852B /* PreferencesToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesToolbar.swift; sourceTree = "<group>"; };
 		E529BE412921BC870037852B /* GeneralSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralSettingsView.swift; sourceTree = "<group>"; };
+		E54CB999292A1D6300A262D1 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		E550EFA828D887D4001F967A /* Iron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Iron.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E550EFAB28D887D4001F967A /* IronApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronApp.swift; sourceTree = "<group>"; };
 		E550EFAD28D887D4001F967A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +77,7 @@
 		E590B1FB2923CA4A00B7B900 /* TagSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagSettingsView.swift; sourceTree = "<group>"; };
 		E590B1FD2923CABA00B7B900 /* SidebarSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarSettingsView.swift; sourceTree = "<group>"; };
 		E590B1FF2923CB1100B7B900 /* AdvancedSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedSettingsView.swift; sourceTree = "<group>"; };
+		E5C87C222927080900DEDA64 /* ImageLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLabel.swift; sourceTree = "<group>"; };
 		E5D34E3E28E7F56900F8E161 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +106,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E5216C562938117A00624C1B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E5216C542938108400624C1B /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		E550EF9F28D887D4001F967A = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +144,7 @@
 				E590B2012924738400B7B900 /* Preferences */,
 				E57FCA1428E0F47500018328 /* SideView */,
 				E551B6E928E9512F00C33C24 /* FileView */,
+				E5216C562938117A00624C1B /* Constants */,
 				E550EFB128D887D6001F967A /* Preview Content */,
 				E550EFAF28D887D6001F967A /* Assets.xcassets */,
 				E5572E43291FE5EA00279093 /* Colors.xcassets */,
@@ -187,6 +202,8 @@
 		E57FCA1728E166A700018328 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				E5C87C222927080900DEDA64 /* ImageLabel.swift */,
+				E54CB999292A1D6300A262D1 /* ImageView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -337,6 +354,7 @@
 				E590B1FC2923CA4A00B7B900 /* TagSettingsView.swift in Sources */,
 				E529BE422921BC870037852B /* GeneralSettingsView.swift in Sources */,
 				E550EFAE28D887D4001F967A /* ContentView.swift in Sources */,
+				E54CB99A292A1D6300A262D1 /* ImageView.swift in Sources */,
 				E590B1FE2923CABA00B7B900 /* SidebarSettingsView.swift in Sources */,
 				E58DFD0228E8C0E400AC0A41 /* SideView.swift in Sources */,
 				E5572E46291FE7E300279093 /* MainToolbar.swift in Sources */,
@@ -348,7 +366,9 @@
 				E58DFD0028E84B7C00AC0A41 /* TagView.swift in Sources */,
 				E551B6EB28E9514900C33C24 /* FileView.swift in Sources */,
 				E57FCA1628E0F4D400018328 /* FavoritesView.swift in Sources */,
+				E5C87C232927080900DEDA64 /* ImageLabel.swift in Sources */,
 				E58DFCFE28E84A8C00AC0A41 /* Tag.swift in Sources */,
+				E5216C552938108400624C1B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
