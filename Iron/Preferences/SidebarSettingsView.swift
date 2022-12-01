@@ -79,7 +79,6 @@ struct SidebarSettingsView: View {
                 }
             }
         }
-        .frame(width: 350, height: 500)
     }
 }
 
