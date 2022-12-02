@@ -17,7 +17,7 @@ struct AdvancedSettingsView: View {
     @AppStorage(Constants.Settings.removeItemsFromTrash) private var removeItemsFromTrash = true
     @AppStorage(Constants.Settings.keepFoldersOnTopWhenSortingByName) private var keepFoldersOnTopWhenSortingByName = true
     @AppStorage(Constants.Settings.keepFoldersOnTopOnDesktop) private var keepFoldersOnTopOnDesktop = true
-    @AppStorage("SEARCHLOCATION") private var searchLocation = "Search this Mac"
+    @AppStorage(Constants.Settings.searchLocation) private var searchLocation = "Search this Mac"
 
     var body: some View {
         Form {
@@ -33,11 +33,13 @@ struct AdvancedSettingsView: View {
                     Spacer()
                 }
                 .padding(EdgeInsets(top: 10, leading: 0, bottom: 10, trailing: 0))
+
                 HStack {
                     Toggle("In Windows when sorting by name", isOn: $keepFoldersOnTopWhenSortingByName)
                         .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 0))
                     Spacer()
                 }
+                
                 HStack {
                     Toggle("On desktop", isOn: $keepFoldersOnTopOnDesktop)
                         .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 0))

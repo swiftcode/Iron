@@ -25,6 +25,6 @@ struct Constants {
         static let removeItemsFromTrash = "REMOVEITEMSFROMTRASH"
         static let keepFoldersOnTopWhenSortingByName = "KEEPFOLDERSONTOPWHENSORTING"
         static let keepFoldersOnTopOnDesktop = "KEEPFOLDERSONTOPONDESKTOP"
-
+        static let searchLocation = "SEARCHLOCATION"
     }
 }
