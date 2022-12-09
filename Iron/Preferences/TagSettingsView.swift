@@ -7,22 +7,31 @@
 
 import SwiftUI
 
-struct TagSettingsView: View {
-    @AppStorage("hardDisks") private var showHardDisks = true
-    @AppStorage("externalDisks") private var showExternalDisks = true
-    @AppStorage("devices") private var showDevices = true
-    @AppStorage("connectedServers") private var showConnectedServers = true
+//struct TagColor: Identifiable {
+//    var id : Int
+//    var color: String
+//
+//    let sampleColors = [
+//        {
+//            "id: 1",
+//            "color": "red"
+//        },
+//        {
+//            "id: 2",
+//            "color": "blue"
+//        }
+//    ]
+//}
 
+struct TagSettingsView: View {
+
+
+    //let tagDesc: TagColor = TagColor.sampleColors
+    
     var body: some View {
-        Form {
-            Text("Show these items on the desktop")
-            Toggle("Hard disks", isOn: $showHardDisks)
-            Toggle("External disks", isOn: $showExternalDisks)
-            Toggle("CDs, DVDs, and iPods", isOn: $showDevices)
-            Toggle("Connected servers", isOn: $showConnectedServers)
+        List {
         }
-        .padding(20)
-        .frame(width: 350, height: 300)
+        .listStyle(.inset(alternatesRowBackgrounds: true))
     }
 }
 
