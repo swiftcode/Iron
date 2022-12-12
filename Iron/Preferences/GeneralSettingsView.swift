@@ -45,6 +45,8 @@ struct GeneralSettingsView: View {
                 }
                 .padding(EdgeInsets(top: 20, leading: 0, bottom: 0, trailing: 0))
             }
+    
+            Spacer()
         }
         .padding(20)
         .frame(width: 350, height: 300)
